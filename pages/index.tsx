@@ -27,7 +27,7 @@ function Table() {
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
       <div style={{ position: 'relative', display: 'flex' }}>
         <input
-          style={{ borderRadius: '6px', background: '#4442', border: '1px solid #fff4', outline: '1px', fontSize: '14pt', fontWeight: '600', color: '#eee', paddingLeft: '32px', position: 'relative', width: '850px', height: '50px', padding: '10px' }}
+          style={{ borderRadius: '6px', color: 'white', background: '#4442', boxShadow: '0px 0px 5px 2px #1111', border: '2px solid #7772', outline: '1px', fontSize: '14pt', fontWeight: '600', color: '#eee', paddingLeft: '32px', position: 'relative', width: '850px', height: '50px', padding: '10px' }}
           value={busca}
           placeholder="manger, écrire, penser,  etc... "
           onChange={(ev) => setBusca(ev.target.value)}
@@ -41,19 +41,19 @@ function Table() {
         {busca == '' ? (
           <div style={{ display: 'flex', gap: '8px', marginTop: '40px', fontSize: '14pt' }}>
             {ListaFiltrada.map((e: any) => (
-              <div onClick={() => { setBusca(e.verb) }} key={e.verb} style={{ display: 'flex', background: "#7775", color: '#f1f1f1', padding: '8px', borderRadius: '6px', cursor: 'pointer' }}>
+              <div onClick={() => { setBusca(e.verb) }} key={e.verb} style={{ display: 'flex', background: "#7775", color: '#f1f1f1', padding: '10px', borderRadius: '6px', cursor: 'pointer' }}>
                 <p>{e.verb}</p>
               </div>
             ))}
           </div>
         ) : (
           <div style={{ width: '100%', display: 'flex', background: '#4442', borderRadius: '16px', flexDirection: 'row', gap: '80px', marginTop: '80px', alignItems: 'flex-start', justifyContent: 'space-between' }}>
-            <div style={{ display: 'flex', flexDirection: 'column', width: '100%', padding: '20px', borderRadius: '16px' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', boxShadow: '0px 0px 15px 3px #1113', width: '100%', padding: '20px', borderRadius: '16px' }}>
               {ListaFiltrada.map((e: any) => (
                 <div key={e.verb} style={{ display: 'flex', gap: '50px', flexDirection: 'row', alignItems: 'flex-start', justifyContent: 'space-evenly' }}>
                   {e.verb != busca ? (<></>) : (
                     e.tenses.map((e: any) => (
-                      <div key={e.conjugations} style={{ display: 'flex', flexDirection: 'column', }}>
+                      <div key={e.conjugations} style={{ display: 'flex', flexDirection: 'column' }}>
                         <p style={{ fontSize: '14pt', color: 'white', marginBottom: '16px' }}><b>{e.tense}</b></p>
                         {e.conjugations.map((e: any) => (
                           <div key={e.term} style={{ display: 'flex', flexDirection: 'column', color: '#f1f1f1', minWidth: '350px', padding: '4px' }}>
