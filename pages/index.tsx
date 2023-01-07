@@ -1,14 +1,35 @@
 import { useState } from "react";
 import ListaArt from '../public/data.json'
+import Box from '@mui/material/Box';
+import Paper from '@mui/material/Paper';
+import { Theme } from '@mui/material/styles';
+
+const icon = (
+  <Paper sx={{ m: 1 }} elevation={4}>
+    <Box component="svg" sx={{ width: 100, height: 100 }}>
+      <Box
+        component="polygon"
+        sx={{
+          fill: (theme: Theme) => theme.palette.common.white,
+          stroke: (theme) => theme.palette.divider,
+          strokeWidth: 1,
+        }}
+        points="0,100 50,00, 100,100"
+      />
+    </Box>
+  </Paper>
+);
 
 
 export default function Home() {
+
   return (
     <div
       style={{ width: '100vw', height: '100vh', background: '#DDD', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'flex-start', paddingTop: '80px', gap: '20px' }}>
+
       <div
         style={{ width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '16px' }}>
-        <p style={{ fontSize: '35pt', fontWeight: 'bold', color: 'Menu' }}>Conjura FRA</p>
+        <p style={{ fontSize: '35pt', fontWeight: 'bold', color: 'Menu' }}>Conjuga FRA</p>
         <p style={{ color: 'Menu' }}>Digite qualquer verbo para obter as conjugações nos tempos verbais</p>
       </div>
       <div style={{ marginTop: '80px', width: '100%', display: 'flex', flexDirection: 'column', gap: '16px', alignItems: 'center', justifyContent: 'space-evenly' }}>
