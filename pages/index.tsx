@@ -5,11 +5,11 @@ import ListaArt from '../public/data.json'
 export default function Home() {
   return (
     <div
-      style={{ width: '100vw', height: '100vh', background: '#DDDDDD', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'flex-start', paddingTop: '80px', gap: '20px' }}>
+      style={{ width: '100vw', height: '100vh', background: '#DDD', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'flex-start', paddingTop: '80px', gap: '20px' }}>
       <div
         style={{ width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '16px' }}>
-        <p style={{ fontSize: '35pt', fontWeight: 'bold', color: 'MenuText' }}>Conjura FRA</p>
-        <p style={{ color: 'gray' }}>Digite qualquer verbo para obter as conjugações nos tempos verbais</p>
+        <p style={{ fontSize: '35pt', fontWeight: 'bold', color: 'Menu' }}>Conjura FRA</p>
+        <p style={{ color: 'Menu' }}>Digite qualquer verbo para obter as conjugações nos tempos verbais</p>
       </div>
       <div style={{ marginTop: '80px', width: '100%', display: 'flex', flexDirection: 'column', gap: '16px', alignItems: 'center', justifyContent: 'space-evenly' }}>
         <Table />
@@ -25,15 +25,18 @@ function Table() {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
       <input
-        style={{ borderRadius: '6px', fontSize: '13pt', fontWeight: '600', color: 'steelblue', paddingLeft: '20px', position: 'relative', width: '850px', height: '26px', padding: '10px' }}
+        style={{ borderRadius: '6px', background: 'white', fontSize: '13pt', fontWeight: '600', color: 'steelblue', paddingLeft: '20px', position: 'relative', width: '850px', height: '50px', padding: '10px' }}
         value={busca}
         placeholder="manger, écrire, penser,  etc... "
         onChange={(ev) => setBusca(ev.target.value)}
         type="text" />
-
+      {busca != '' ?
+        (
+          <p onClick={() => { setBusca('') }} style={{ cursor: 'pointer', color: "black", right: '310px', top: '287px', fontSize: '20pt', position: 'absolute' }}>X</p>
+        ) : (<></>)}
       <div >
         {busca == '' ? (
-          <div style={{ display: 'flex', gap: '8px', marginTop: '40px', fontSize: '14pt', color: 'gray' }}>
+          <div style={{ display: 'flex', gap: '8px', marginTop: '40px', fontSize: '14pt', color: 'gray', }}>
             {ListaFiltrada.map((e: any) => (
               <div onClick={() => { setBusca(e.verb) }} key={e.verb} style={{ display: 'flex', background: "#ccc", color: 'steelblue', padding: '8px', borderRadius: '6px', cursor: 'pointer' }}>
                 <p>{e.verb}</p>
