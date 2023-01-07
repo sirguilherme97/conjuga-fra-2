@@ -27,7 +27,7 @@ function Table() {
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
       <div style={{ position: 'relative', display: 'flex' }}>
         <input
-          style={{ borderRadius: '6px', color: 'white', background: '#4442', boxShadow: '0px 0px 5px 2px #1111', border: '2px solid #7772', outline: '1px', fontSize: '14pt', fontWeight: '600', color: '#eee', paddingLeft: '32px', position: 'relative', width: '850px', height: '50px', padding: '10px' }}
+          style={{ borderRadius: '6px', color: 'white', background: '#4442', boxShadow: '0px 0px 5px 2px #1111', border: '2px solid #7772', outline: '1px', fontSize: '14pt', fontWeight: '600', paddingLeft: '32px', position: 'relative', width: '850px', height: '50px', padding: '10px' }}
           value={busca}
           placeholder="manger, écrire, penser,  etc... "
           onChange={(ev) => setBusca(ev.target.value)}
@@ -67,7 +67,7 @@ function Table() {
                 </div>
               ))}
             </div>
-          </div>
+          </div>//=)
         )
         }
       </div >
