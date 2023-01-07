@@ -76,17 +76,17 @@ function Teste({ past, present, future }: any) {
                 <tr className='flex items-center justify-around'>
                     <th>
                         {past.map((e: any) => (
-                            <p className='text-zinc-50 font-thin flex justify-start gap-4'><span className='flex justify-start font-bold'>{e.pronoun}</span> {e.verb}</p>
+                            <p key={e.verb} className='text-zinc-50 font-thin flex justify-start gap-4'><span className='flex justify-start font-bold'>{e.pronoun}</span> {e.verb}</p>
                         ))}
                     </th>
                     <th>
                         {present.map((e: any) => (
-                            <p className='text-zinc-50 font-thin flex justify-start gap-4'><span className='flex justify-start font-bold'>{e.pronoun}</span> {e.verb}</p>
+                            <p key={e.verb} className='text-zinc-50 font-thin flex justify-start gap-4'><span className='flex justify-start font-bold'>{e.pronoun}</span> {e.verb}</p>
                         ))}
                     </th>
                     <th>
                         {future.map((e: any) => (
-                            <p className='text-zinc-50 font-thin flex justify-start gap-4'><span className='flex justify-start font-bold'>{e.pronoun}</span> {e.verb}</p>
+                            <p key={e.verb} className='text-zinc-50 font-thin flex justify-start gap-4'><span className='flex justify-start font-bold'>{e.pronoun}</span> {e.verb}</p>
                         ))}
                     </th>
                 </tr>
