@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { BsBackspace } from "react-icons/bs";
 
-export function Search() {
+export default function Search() {
     const [handle, setHandle] = useState('');
 
     const [auxP, setAuxP] = useState([{}]);

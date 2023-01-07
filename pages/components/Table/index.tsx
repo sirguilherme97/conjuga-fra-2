@@ -1,8 +1,8 @@
 // import { useState } from 'react'
 // import ListaArt from '../../../public/data.json'
 
-import { Search } from '../Search/index'
-export function Table() {
+import Search from '../Search/index'
+export default function Table() {
     // const [busca, setBusca] = useState('');
     // const lowerBusca = busca.toLowerCase()
     // const ListaFiltrada = ListaArt.verbs.filter((Lista) => Lista.verb.toLowerCase().includes(lowerBusca))
