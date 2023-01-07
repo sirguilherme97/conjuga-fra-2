@@ -1,0 +1,664 @@
+{
+    "verbs": [
+        {
+            "verb": "manger",
+            "tenses": [
+                {
+                    "tense": "le passé",
+                    "conjugations": [
+                        {
+                            "term": "passé récent",
+                            "definition": "Je viens de manger"
+                        },
+                        {
+                            "term": "passé composé",
+                            "definition": "J'ai mangé"
+                        },
+                        {
+                            "term": "imparfait",
+                            "definition": "Je mangeais"
+                        },
+                        {
+                            "term": "plus-que-parfait",
+                            "definition": "J'avais mangé"
+                        }
+                    ]
+                },
+                {
+                    "tense": "le présent",
+                    "conjugations": [
+                        {
+                            "term": "présent",
+                            "definition": "Je mange"
+                        },
+                        {
+                            "term": "imperative",
+                            "definition": "Mange(j'), Mangez(il), Mangeons(nous)"
+                        },
+                        {
+                            "term": "préset progressif",
+                            "definition": "Je suis en train de manger"
+                        }
+                    ]
+                },
+                {
+                    "tense": "le futur",
+                    "conjugations": [
+                        {
+                            "term": "futur proche",
+                            "definition": "Je vais manger"
+                        },
+                        {
+                            "term": "futur antérieur",
+                            "definition": "J'aurai mangé"
+                        },
+                        {
+                            "term": "futur simple",
+                            "definition": "Je mangerai"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "verb": "parler",
+            "tenses": [
+                {
+                    "tense": "le passé",
+                    "conjugations": [
+                        {
+                            "term": "passé récent",
+                            "definition": "Je viens de parler"
+                        },
+                        {
+                            "term": "passé composé",
+                            "definition": "J'ai parlé"
+                        },
+                        {
+                            "term": "imparfait",
+                            "definition": "Je parlais"
+                        },
+                        {
+                            "term": "plus-que-parfait",
+                            "definition": "J'avais parlé"
+                        }
+                    ]
+                },
+                {
+                    "tense": "le présent",
+                    "conjugations": [
+                        {
+                            "term": "présent",
+                            "definition": "Je parle"
+                        },
+                        {
+                            "term": "imperative",
+                            "definition": "Parle(j'), Parlez(il), Parlons(nous)"
+                        },
+                        {
+                            "term": "préset progressif",
+                            "definition": "Je suis en train de parler"
+                        }
+                    ]
+                },
+                {
+                    "tense": "le futur",
+                    "conjugations": [
+                        {
+                            "term": "futur proche",
+                            "definition": "Je vais parler"
+                        },
+                        {
+                            "term": "futur antérieur",
+                            "definition": "J'aurai parlé"
+                        },
+                        {
+                            "term": "futur simple",
+                            "definition": "Je parlerai"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "verb": "penser",
+            "tenses": [
+                {
+                    "tense": "le passé",
+                    "conjugations": [
+                        {
+                            "term": "passé récent",
+                            "definition": "Je viens de penser"
+                        },
+                        {
+                            "term": "passé composé",
+                            "definition": "J'ai pensé"
+                        },
+                        {
+                            "term": "imparfait",
+                            "definition": "Je pensais"
+                        },
+                        {
+                            "term": "plus-que-parfait",
+                            "definition": "J'avais pensé"
+                        }
+                    ]
+                },
+                {
+                    "tense": "le présent",
+                    "conjugations": [
+                        {
+                            "term": "présent",
+                            "definition": "Je pense"
+                        },
+                        {
+                            "term": "imperative",
+                            "definition": "Pense(j'), Pensez(il), Pensons(nous)"
+                        },
+                        {
+                            "term": "préset progressif",
+                            "definition": "Je suis en train de penser"
+                        }
+                    ]
+                },
+                {
+                    "tense": "le futur",
+                    "conjugations": [
+                        {
+                            "term": "futur proche",
+                            "definition": "Je vais penser"
+                        },
+                        {
+                            "term": "futur antérieur",
+                            "definition": "J'aurai pensé"
+                        },
+                        {
+                            "term": "futur simple",
+                            "definition": "Je penserai"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "verb": "écrire",
+            "tenses": [
+                {
+                    "tense": "le passé",
+                    "conjugations": [
+                        {
+                            "term": "passé récent",
+                            "definition": "Je viens d'écrire"
+                        },
+                        {
+                            "term": "passé composé",
+                            "definition": "J'ai écrit"
+                        },
+                        {
+                            "term": "imparfait",
+                            "definition": "Je écrivais"
+                        },
+                        {
+                            "term": "plus-que-parfait",
+                            "definition": "J'avais écrit"
+                        }
+                    ]
+                },
+                {
+                    "tense": "le présent",
+                    "conjugations": [
+                        {
+                            "term": "présent",
+                            "definition": "Je écris"
+                        },
+                        {
+                            "term": "imperative",
+                            "definition": "Écris(j'), Écrivez(il), Écrivons(nous)"
+                        },
+                        {
+                            "term": "préset progressif",
+                            "definition": "Je suis en train d'écrire"
+                        }
+                    ]
+                },
+                {
+                    "tense": "le futur",
+                    "conjugations": [
+                        {
+                            "term": "futur proche",
+                            "definition": "Je vais écrire"
+                        },
+                        {
+                            "term": "futur antérieur",
+                            "definition": "J'aurai écrit"
+                        },
+                        {
+                            "term": "futur simple",
+                            "definition": "Je écrirai"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "verb": "être",
+            "tenses": [
+                {
+                    "tense": "le passé",
+                    "conjugations": [
+                        {
+                            "term": "passé récent",
+                            "definition": "Je viens d'être"
+                        },
+                        {
+                            "term": "passé composé",
+                            "definition": "J'ai été"
+                        },
+                        {
+                            "term": "imparfait",
+                            "definition": "Je étais"
+                        },
+                        {
+                            "term": "plus-que-parfait",
+                            "definition": "J'avais été"
+                        }
+                    ]
+                },
+                {
+                    "tense": "le présent",
+                    "conjugations": [
+                        {
+                            "term": "présent",
+                            "definition": "Je suis"
+                        },
+                        {
+                            "term": "imperative",
+                            "definition": "Sois(j'), Soyez(il), Soyons(nous)"
+                        },
+                        {
+                            "term": "préset progressif",
+                            "definition": "Je suis en train d'être"
+                        }
+                    ]
+                },
+                {
+                    "tense": "le futur",
+                    "conjugations": [
+                        {
+                            "term": "futur proche",
+                            "definition": "Je vais être"
+                        },
+                        {
+                            "term": "futur antérieur",
+                            "definition": "J'aurai été"
+                        },
+                        {
+                            "term": "futur simple",
+                            "definition": "Je serai"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "verb": "avoir",
+            "tenses": [
+                {
+                    "tense": "le passé",
+                    "conjugations": [
+                        {
+                            "term": "passé récent",
+                            "definition": "Je viens d'avoir"
+                        },
+                        {
+                            "term": "passé composé",
+                            "definition": "J'ai eu"
+                        },
+                        {
+                            "term": "imparfait",
+                            "definition": "J'avais"
+                        },
+                        {
+                            "term": "plus-que-parfait",
+                            "definition": "J'avais eu"
+                        }
+                    ]
+                },
+                {
+                    "tense": "le présent",
+                    "conjugations": [
+                        {
+                            "term": "présent",
+                            "definition": "J'ai"
+                        },
+                        {
+                            "term": "imperative",
+                            "definition": "Aie(j'), Ayez(il), Ayons(nous)"
+                        },
+                        {
+                            "term": "préset progressif",
+                            "definition": "Je suis en train d'avoir"
+                        }
+                    ]
+                },
+                {
+                    "tense": "le futur",
+                    "conjugations": [
+                        {
+                            "term": "futur proche",
+                            "definition": "Je vais avoir"
+                        },
+                        {
+                            "term": "futur antérieur",
+                            "definition": "J'aurai eu"
+                        },
+                        {
+                            "term": "futur simple",
+                            "definition": "J'aurai"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "verb": "faire",
+            "tenses": [
+                {
+                    "tense": "le passé",
+                    "conjugations": [
+                        {
+                            "term": "passé récent",
+                            "definition": "Je viens de faire"
+                        },
+                        {
+                            "term": "passé composé",
+                            "definition": "J'ai fait"
+                        },
+                        {
+                            "term": "imparfait",
+                            "definition": "Je faisais"
+                        },
+                        {
+                            "term": "plus-que-parfait",
+                            "definition": "J'avais fait"
+                        }
+                    ]
+                },
+                {
+                    "tense": "le présent",
+                    "conjugations": [
+                        {
+                            "term": "présent",
+                            "definition": "Je fais"
+                        },
+                        {
+                            "term": "imperative",
+                            "definition": "Fais(j'), Faites(il), Faisons(nous)"
+                        },
+                        {
+                            "term": "préset progressif",
+                            "definition": "Je suis en train de faire"
+                        }
+                    ]
+                },
+                {
+                    "tense": "le futur",
+                    "conjugations": [
+                        {
+                            "term": "futur proche",
+                            "definition": "Je vais faire"
+                        },
+                        {
+                            "term": "futur antérieur",
+                            "definition": "J'aurai fait"
+                        },
+                        {
+                            "term": "futur simple",
+                            "definition": "Je ferai"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "verb": "pouvoir",
+            "tenses": [
+                {
+                    "tense": "le passé",
+                    "conjugations": [
+                        {
+                            "term": "passé récent",
+                            "definition": "Je viens de pouvoir"
+                        },
+                        {
+                            "term": "passé composé",
+                            "definition": "J'ai pu"
+                        },
+                        {
+                            "term": "imparfait",
+                            "definition": "Je pouvais"
+                        },
+                        {
+                            "term": "plus-que-parfait",
+                            "definition": "J'avais pu"
+                        }
+                    ]
+                },
+                {
+                    "tense": "le présent",
+                    "conjugations": [
+                        {
+                            "term": "présent",
+                            "definition": "Je peux"
+                        },
+                        {
+                            "term": "imperative",
+                            "definition": "Peux(j'), Pouvez(il), Pouvons(nous)"
+                        },
+                        {
+                            "term": "préset progressif",
+                            "definition": "Je suis en train de pouvoir"
+                        }
+                    ]
+                },
+                {
+                    "tense": "le futur",
+                    "conjugations": [
+                        {
+                            "term": "futur proche",
+                            "definition": "Je vais pouvoir"
+                        },
+                        {
+                            "term": "futur antérieur",
+                            "definition": "J'aurai pu"
+                        },
+                        {
+                            "term": "futur simple",
+                            "definition": "Je pourrai"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "verb": "dire",
+            "tenses": [
+                {
+                    "tense": "le passé",
+                    "conjugations": [
+                        {
+                            "term": "passé récent",
+                            "definition": "Je viens de dire"
+                        },
+                        {
+                            "term": "passé composé",
+                            "definition": "J'ai dit"
+                        },
+                        {
+                            "term": "imparfait",
+                            "definition": "Je disais"
+                        },
+                        {
+                            "term": "plus-que-parfait",
+                            "definition": "J'avais dit"
+                        }
+                    ]
+                },
+                {
+                    "tense": "le présent",
+                    "conjugations": [
+                        {
+                            "term": "présent",
+                            "definition": "Je dis"
+                        },
+                        {
+                            "term": "imperative",
+                            "definition": "Dis(j'), Dites(il), Disons(nous)"
+                        },
+                        {
+                            "term": "préset progressif",
+                            "definition": "Je suis en train de dire"
+                        }
+                    ]
+                },
+                {
+                    "tense": "le futur",
+                    "conjugations": [
+                        {
+                            "term": "futur proche",
+                            "definition": "Je vais dire"
+                        },
+                        {
+                            "term": "futur antérieur",
+                            "definition": "J'aurai dit"
+                        },
+                        {
+                            "term": "futur simple",
+                            "definition": "Je dirai"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "verb": "aller",
+            "tenses": [
+                {
+                    "tense": "le passé",
+                    "conjugations": [
+                        {
+                            "term": "passé récent",
+                            "definition": "Je viens d'aller"
+                        },
+                        {
+                            "term": "passé composé",
+                            "definition": "Je suis allé(e)"
+                        },
+                        {
+                            "term": "imparfait",
+                            "definition": "Je allais"
+                        },
+                        {
+                            "term": "plus-que-parfait",
+                            "definition": "J'étais allé(e)"
+                        }
+                    ]
+                },
+                {
+                    "tense": "le présent",
+                    "conjugations": [
+                        {
+                            "term": "présent",
+                            "definition": "Je vais"
+                        },
+                        {
+                            "term": "imperative",
+                            "definition": "Va(j'), Allez(il), Allons(nous)"
+                        },
+                        {
+                            "term": "préset progressif",
+                            "definition": "Je suis en train d'aller"
+                        }
+                    ]
+                },
+                {
+                    "tense": "le futur",
+                    "conjugations": [
+                        {
+                            "term": "futur proche",
+                            "definition": "Je vais aller"
+                        },
+                        {
+                            "term": "futur antérieur",
+                            "definition": "J'irai"
+                        },
+                        {
+                            "term": "futur simple",
+                            "definition": "Je irai"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "verb": "voir",
+            "tenses": [
+                {
+                    "tense": "le passé",
+                    "conjugations": [
+                        {
+                            "term": "passé récent",
+                            "definition": "Je viens de voir"
+                        },
+                        {
+                            "term": "passé composé",
+                            "definition": "J'ai vu"
+                        },
+                        {
+                            "term": "imparfait",
+                            "definition": "Je voyais"
+                        },
+                        {
+                            "term": "plus-que-parfait",
+                            "definition": "J'avais vu"
+                        }
+                    ]
+                },
+                {
+                    "tense": "le présent",
+                    "conjugations": [
+                        {
+                            "term": "présent",
+                            "definition": "Je vois"
+                        },
+                        {
+                            "term": "imperative",
+                            "definition": "Vois(j'), Voyez(il), Voyons(nous)"
+                        },
+                        {
+                            "term": "préset progressif",
+                            "definition": "Je suis en train de voir"
+                        }
+                    ]
+                },
+                {
+                    "tense": "le futur",
+                    "conjugations": [
+                        {
+                            "term": "futur proche",
+                            "definition": "Je vais voir"
+                        },
+                        {
+                            "term": "futur antérieur",
+                            "definition": "J'aurai vu"
+                        },
+                        {
+                            "term": "futur simple",
+                            "definition": "Je verrai"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
