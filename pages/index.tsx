@@ -24,16 +24,18 @@ function Table() {
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-      <input
-        style={{ borderRadius: '6px', background: 'white', fontSize: '13pt', fontWeight: '600', color: 'steelblue', paddingLeft: '20px', position: 'relative', width: '850px', height: '50px', padding: '10px' }}
-        value={busca}
-        placeholder="manger, écrire, penser,  etc... "
-        onChange={(ev) => setBusca(ev.target.value)}
-        type="text" />
-      {busca != '' ?
-        (
-          <p onClick={() => { setBusca('') }} style={{ cursor: 'pointer', color: "black", right: '310px', top: '287px', fontSize: '20pt', position: 'absolute' }}>X</p>
-        ) : (<></>)}
+      <div style={{ position: 'relative', display: 'flex' }}>
+        <input
+          style={{ borderRadius: '6px', background: 'white', fontSize: '13pt', fontWeight: '600', color: 'steelblue', paddingLeft: '20px', position: 'relative', width: '850px', height: '50px', padding: '10px' }}
+          value={busca}
+          placeholder="manger, écrire, penser,  etc... "
+          onChange={(ev) => setBusca(ev.target.value)}
+          type="text" />
+        {busca != '' ?
+          (
+            <p onClick={() => { setBusca('') }} style={{ cursor: 'pointer', color: "steelblue", fontWeight: 'bold', right: '2%', top: '15%', fontSize: '20pt', position: 'absolute' }}>X</p>
+          ) : (<></>)}
+      </div>
       <div >
         {busca == '' ? (
           <div style={{ display: 'flex', gap: '8px', marginTop: '40px', fontSize: '14pt', color: 'gray', }}>
