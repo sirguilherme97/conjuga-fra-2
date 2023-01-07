@@ -1,6 +1,6 @@
 import { useState } from "react";
+// import ListaArt from '../public/data.json'
 import ListaArt from '../public/data.json'
-
 
 export default function Home() {
 
