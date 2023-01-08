@@ -37,16 +37,16 @@ export default function Search() {
     return (
         <main>
             <input
-                className='bg-[#4442] w-[700px] relative  text-zinc-50 h-10 p-6 text-xl font-semibold outline outline-1 outline-zinc-400 focus:outline-1 focus:outline-zinc-50 rounded-md transition-all focus:text-sky-400 placeholder:text-zinc-400 '
+                className='bg-[#4442] w-[700px] relative  text-zinc-50 h-10 p-6 text-xl font-semibold outline outline-1 outline-zinc-400 focus:outline-1 focus:outline-zinc-50 rounded-md transition-all focus:text-[#009CCCFF] placeholder:text-zinc-400 '
                 value={handle}
                 placeholder="Entre com o verbo"
                 onChange={(ev) => (setHandle(ev.target.value.toLocaleLowerCase()))}
                 type="text"
             />
-            <button onClick={Submite} className='bg-sky-500 h-12 px-4 rounded-md absolute -right-36 top-0 text-zinc-50 text-lg hover:opacity-80 transition-all'>Pesquisar</button>
+            <button onClick={Submite} className='bg-[#009CCCFF] h-12 px-4 rounded-md absolute -right-36 top-0 text-zinc-50 text-lg hover:opacity-80 transition-all'>Pesquisar</button>
             {handle != '' && (
                 <div className='absolute right-3 top-[10px] cursor-pointer '>
-                    <BsBackspace onClick={handleText} size={30} className="text-sky-600 hover:text-sky-400 active:text-sky-100 transition-all " />
+                    <BsBackspace onClick={handleText} size={30} className="text-[#009CCCFF] hover:text-[#49cbf2] active:text-sky-100 transition-all " />
                 </div>
             )}
             {flag === true ? (<Teste past={auxP} present={auxPP} future={auxF} />) : (
