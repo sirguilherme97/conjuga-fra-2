@@ -16,7 +16,7 @@ export default function Search() {
     function Submite() {
         setHandle(handle)
         if (handle === '' || handle === ' ') {
-            console.log("Erro na API")
+            console.log('tururu');
         } else {
 
             setAuxP(conjugationFR1.findTense(`${handle}`, "indicative perfect-tense"))
@@ -60,36 +60,46 @@ function Teste({ past, present, future }: any) {
     return (
         <div className='mt-8 w-full h-full'>
             <table className='w-full '>
-                <tr className='flex items-center justify-around '>
-                    <th>
-                        <p className='text-zinc-50 font-bold text-lg mb-4'>le passé</p>
-                    </th>
-                    <th>
-                        <p className='text-zinc-50 font-bold text-lg mb-4'>le présent</p>
-                    </th>
-                    <th>
-                        <p className='text-zinc-50 font-bold text-lg mb-4'>le futur</p>
-                    </th>
-                </tr>
-            </table>
-            <table className='w-full '>
-                <tr className='flex items-center justify-around'>
-                    <th>
-                        {past.map((e: any) => (
-                            <p key={e.verb} className='text-zinc-50 font-thin flex justify-start gap-4'><span className='flex justify-start font-bold'>{e.pronoun}</span> {e.verb}</p>
-                        ))}
-                    </th>
-                    <th>
-                        {present.map((e: any) => (
-                            <p key={e.verb} className='text-zinc-50 font-thin flex justify-start gap-4'><span className='flex justify-start font-bold'>{e.pronoun}</span> {e.verb}</p>
-                        ))}
-                    </th>
-                    <th>
-                        {future.map((e: any) => (
-                            <p key={e.verb} className='text-zinc-50 font-thin flex justify-start gap-4'><span className='flex justify-start font-bold'>{e.pronoun}</span> {e.verb}</p>
-                        ))}
-                    </th>
-                </tr>
+                <thead className='flex items-center justify-around '>
+                    <tr>
+                        <th>
+                            <p className='text-zinc-50 font-bold text-lg mb-4'>le passé</p>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <p className='text-zinc-50 font-bold text-lg mb-4'>le présent</p>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <p className='text-zinc-50 font-bold text-lg mb-4'>le futur</p>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody className='flex items-center justify-around'>
+                    <tr>
+                        <th>
+                            {past.map((e: any) => (
+                                <p key={e.pronounIndex} className='text-zinc-50 font-thin flex justify-start gap-4'><span className='flex justify-start font-bold'>{e.pronoun}</span> {e.verb}</p>
+                            ))}
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            {present.map((e: any) => (
+                                <p key={e.pronounIndex} className='text-zinc-50 font-thin flex justify-start gap-4'><span className='flex justify-start font-bold'>{e.pronoun}</span> {e.verb}</p>
+                            ))}
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            {future.map((e: any) => (
+                                <p key={e.pronounIndex} className='text-zinc-50 font-thin flex justify-start gap-4'><span className='flex justify-start font-bold'>{e.pronoun}</span> {e.verb}</p>
+                            ))}
+                        </th>
+                    </tr>
+                </tbody>
             </table>
         </div>
     )
